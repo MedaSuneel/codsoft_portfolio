@@ -1,0 +1,91 @@
+.header{
+    display: flex;
+    background: purple;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar a{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 35px;
+    color: white;
+    padding: 10px;
+    justify-content: space-between;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.navbar a:hover{
+    background-color: aqua;
+}
+.home{
+    position: relative;
+    width: 100%;
+    color: black;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.home-content{
+    margin-right: 5%;
+    margin-top: 2%;
+    justify-content: s;
+    word-spacing: 2px;
+    line-height: 30px;
+}
+.home-content h3{
+    font-size: 32px;
+}
+.home-content h4{
+    font-size: 18px;
+}
+.homelogo{
+    margin-left: 5%;
+    margin-top: 3%;
+    border-radius: 20px;
+}
+.courses{
+    display: flex;
+}
+.courses div{
+    margin-left: 5%;
+    margin-top: 4%;
+    width: 15%;
+    color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 10px grey;
+}
+.courses h2,h4{
+    text-align: center;
+}
+.projects h2,h3{
+    margin-left: 8%;
+}
+.recommend {
+    display: flex;
+}
+.recommend div{
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 23%;
+    color: black;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 15px;
+}
+.leave input{
+    margin-left: 35%;
+    width: 23%;
+    height: 5%;
+}
+.leave button{
+    margin-left: 40%;
+    margin-top: 2%;
+    color: purple;
+    border: 1px solid purple;
+    width: 13%;
+    height: 5%;
+}
